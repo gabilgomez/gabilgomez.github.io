@@ -421,10 +421,9 @@ ul {
    Education & Certifications
    ============================================================ */
 .edu-cols {
-  display: grid;
-  grid-template-columns: 1fr 1.6fr;
-  gap: 56px;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .edu-col-title {
@@ -617,11 +616,6 @@ ul {
   .skills-groups {
     grid-template-columns: 1fr;
     gap: 28px;
-  }
-
-  .edu-cols {
-    grid-template-columns: 1fr;
-    gap: 40px;
   }
 
   .footer-inner {
