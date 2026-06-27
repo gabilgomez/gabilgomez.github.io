@@ -99,3 +99,37 @@ Increment 4 — Skills, Education & Certifications, Contact, Footer.
 
 ### Next
 Increment 5 — Full i18n pass and GitHub Pages activation (CNAME + DNS instructions).
+
+---
+
+## Increment 5 — i18n Completion & SEO Finalisation
+**Date:** 2026-06-27
+
+### What was implemented
+- `page.title` and `page.description` strings added for EN and PT
+- `applyLang()` now updates `document.title` and `<meta name="description">` on every language switch
+- `id="meta-description"` added to description meta for efficient DOM access
+- `hreflang` alternate links added (`en`, `pt-BR`, `x-default`) — all pointing to `https://gabi.gomez.id` (single-URL language switch pattern)
+- `og:locale` (`en_GB`) and `og:locale:alternate` (`pt_BR`) added
+- Placeholder comment for `og:image` (to be added with profile photo)
+
+### Tested
+- All new meta tags and hreflang links confirmed present in served HTML
+
+### GitHub Pages activation — user action required
+1. Go to **github.com/gabilgomez/gabilgomez.github.io → Settings → Pages**
+2. Source: **Deploy from a branch** → Branch: `main` → Folder: `/ (root)` → Save
+3. Site becomes live at `https://gabilgomez.github.io` within ~60 seconds
+
+### DNS setup — user action required
+In your `gomez.id` domain registrar, add one record:
+- Type: `CNAME`
+- Name / Host: `gabi`
+- Value / Points to: `gabilgomez.github.io`
+- TTL: `3600` (or default)
+
+After DNS propagates (15–60 min), `https://gabi.gomez.id` will resolve.
+Then in GitHub Pages settings, tick **Enforce HTTPS** once the certificate is ready.
+
+### Next
+Increment 6 — Profile photo integration (user to provide asset).

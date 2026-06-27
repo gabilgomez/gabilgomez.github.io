@@ -3,6 +3,10 @@
    ============================================================ */
 const strings = {
   en: {
+    // Page meta
+    'page.title':       'Gabi Gomez — IP Analyst & Mechatronics Engineer',
+    'page.description': 'Gabrielli Laurindo Gomez — Mechatronics Engineer specialising in IP analysis, patent research, and technology assessment. Based in Exeter, UK.',
+
     // Hero
     'hero.tagline':  'Mechatronics Engineer specialising in intellectual property research and technology assessment',
     'hero.location': 'Exeter · UK',
@@ -61,6 +65,10 @@ const strings = {
   },
 
   pt: {
+    // Page meta
+    'page.title':       'Gabi Gomez — Analista de PI e Engenheira Mecatrônica',
+    'page.description': 'Gabrielli Laurindo Gomez — Engenheira Mecatrônica com especialização em análise de PI, pesquisa de patentes e avaliação tecnológica. Sediada em Exeter, Reino Unido.',
+
     // Hero
     'hero.tagline':  'Engenheira Mecatrônica com especialização em pesquisa de propriedade intelectual e avaliação tecnológica',
     'hero.location': 'Exeter · Reino Unido',
@@ -132,6 +140,15 @@ function applyLang(lang) {
       el.innerHTML = strings[lang][key];
     }
   });
+
+  if (strings[lang]['page.title']) {
+    document.title = strings[lang]['page.title'];
+  }
+
+  const metaDesc = document.getElementById('meta-description');
+  if (metaDesc && strings[lang]['page.description']) {
+    metaDesc.setAttribute('content', strings[lang]['page.description']);
+  }
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
