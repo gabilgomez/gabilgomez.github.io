@@ -1,0 +1,202 @@
+/* ============================================================
+   Design Tokens
+   ============================================================ */
+:root {
+  --bg:             #f8f7f4;
+  --surface:        #ffffff;
+  --accent:         #2d6a4f;
+  --accent-hover:   #255c43;
+  --accent-light:   #e8f4f0;
+  --text-primary:   #1c1c1c;
+  --text-secondary: #5a5a5a;
+  --border:         #e2e2e2;
+
+  --font:           'Inter', system-ui, -apple-system, sans-serif;
+  --max-width:      900px;
+  --nav-h:          60px;
+  --section-gap:    88px;
+  --radius:         5px;
+}
+
+/* ============================================================
+   Reset
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ============================================================
+   Layout
+   ============================================================ */
+.container {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+/* ============================================================
+   Navigation
+   ============================================================ */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--nav-h);
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+  transition: opacity 0.18s ease;
+}
+
+.nav-name:hover {
+  opacity: 0.7;
+}
+
+/* Language toggle */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 5px 9px;
+  border-radius: var(--radius);
+  transition: color 0.18s ease, background-color 0.18s ease;
+  line-height: 1;
+}
+
+.lang-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--accent-light);
+}
+
+.lang-btn.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.lang-sep {
+  display: block;
+  width: 1px;
+  height: 14px;
+  background: var(--border);
+  margin-inline: 2px;
+}
+
+/* ============================================================
+   Sections
+   ============================================================ */
+.section {
+  padding-block: var(--section-gap);
+}
+
+.section-hero {
+  padding-block: 96px 80px;
+}
+
+.section-alt {
+  background: var(--surface);
+}
+
+/* Section label — small caps heading */
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 36px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+.footer {
+  border-top: 1px solid var(--border);
+  padding-block: 28px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ============================================================
+   Dev placeholders — removed once section is built
+   ============================================================ */
+.placeholder {
+  color: var(--border);
+  font-size: 0.85rem;
+  font-style: italic;
+  padding-block: 24px;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 640px) {
+  :root {
+    --section-gap: 56px;
+  }
+
+  .section-hero {
+    padding-block: 64px 48px;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
