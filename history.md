@@ -52,3 +52,28 @@ Increment 2 — Hero section with name, tagline, and social links.
 
 ### Next
 Increment 3 — About paragraph and Experience timeline.
+
+---
+
+## Increment 3 — About & Experience
+**Date:** 2026-06-27
+
+### What was implemented
+- **About section**: single paragraph framing Gabi as an engineer who specialised in IP; key terms (`patent searches`, `freedom-to-operate analyses`, `technology landscape reviews`) emphasised in accent green via `<strong>`
+- **Experience section**: three roles in reverse-chronological timeline
+  - Senior IP Analyst — RWS IP Services (2022–Present), 5 bullets
+  - Customer Experience Associate — Conduent (2021), 2 bullets
+  - IP Research & Innovation Manager — Cerumar (2016–2020), 6 bullets
+- Custom bullet design: 5px accent-green dot via `::before` pseudo-element on flex list items
+- Role header: role title + company/location left, period right-aligned
+- `applyLang` updated to use `innerHTML` so `<strong>` emphasis in translation strings renders correctly
+- Full EN and PT translations for all About and Experience strings added to `strings` object
+- Mobile: date period floats above role title at ≤640px
+
+### Tested
+- 10 about/experience class instances confirmed in served HTML
+- All 25 i18n keys for the three roles confirmed present (9 + 6 + 10)
+- `innerHTML` switch verified — emphasis tags render on language toggle
+
+### Next
+Increment 4 — Skills, Education & Certifications, Contact, Footer.
