@@ -252,24 +252,22 @@ ul {
   flex-shrink: 0;
 }
 
-/* Photo placeholder */
+/* Profile photo */
 .hero-photo {
   flex-shrink: 0;
   width: 148px;
   height: 148px;
   border-radius: 50%;
-  border: 2px dashed var(--accent);
-  background: var(--accent-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
+  border: 2px solid var(--border);
 }
 
-.hero-photo-icon {
-  width: 56px;
-  height: 56px;
-  color: var(--accent);
-  opacity: 0.45;
+.hero-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
 }
 
 /* ============================================================
@@ -715,11 +713,6 @@ ul {
   .hero-photo {
     width: 96px;
     height: 96px;
-  }
-
-  .hero-photo-icon {
-    width: 38px;
-    height: 38px;
   }
 
   .exp-header {
