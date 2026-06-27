@@ -136,7 +136,7 @@ ul {
 }
 
 .section-hero {
-  padding-block: 96px 80px;
+  padding-block: 80px 40px;
 }
 
 .section-alt {
@@ -177,7 +177,7 @@ ul {
    ============================================================ */
 .hero-inner {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 56px;
 }
 
@@ -263,7 +263,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 8px;
 }
 
 .hero-photo-icon {
@@ -280,7 +279,6 @@ ul {
   font-size: 1.05rem;
   line-height: 1.8;
   color: var(--text-primary);
-  max-width: 640px;
 }
 
 .about-body strong {

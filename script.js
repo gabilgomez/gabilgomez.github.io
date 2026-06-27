@@ -46,6 +46,36 @@ const strings = {
     'exp.r3.b5': 'Ran internal training sessions for junior colleagues and commercial teams on IP services and client matching.',
     'exp.r3.b6': 'Used Excel extensively to organise, analyse, and present research findings, and prepare structured datasets for external platforms.',
 
+    // Research Experience
+    'res.title': 'Research Experience',
+
+    'res.r1.title':   'Researcher in Injection Moulding',
+    'res.r1.company': 'Federal Institute of Education, Science and Technology of Santa Catarina',
+    'res.r1.place':   'SC, Brazil (On-Site)',
+    'res.r1.period':  '2014 – 2015',
+    'res.r1.b1': 'Conducted research into <strong>injection moulding</strong> processes and manufacturing parameters.',
+    'res.r1.b2': 'Developed and analysed moulding simulations using <strong>SolidWorks Plastics</strong>.',
+    'res.r1.b3': 'Designed components and prototypes using <strong>SolidWorks CAD</strong> software.',
+    'res.r1.b4': 'Manufactured functional prototypes using conventional workshop equipment, including lathes and milling machines.',
+    'res.r1.b5': 'Performed prototype evaluation and basic functional testing.',
+
+    'res.r2.title':   'Researcher in Rapid Prototyping Processes',
+    'res.r2.company': 'Federal Institute of Education, Science and Technology of Santa Catarina',
+    'res.r2.place':   'SC, Brazil (On-Site)',
+    'res.r2.period':  '2013 – 2015',
+    'res.r2.b1': 'Conducted research into <strong>rapid prototyping</strong> and <strong>additive manufacturing</strong> processes, including optimisation of <strong>3D printing</strong> parameters.',
+    'res.r2.b2': 'Designed prototypes and experimental components using <strong>SolidWorks CAD</strong> software.',
+    'res.r2.b3': 'Performed prototype validation and basic functional testing.',
+
+    'res.r3.title':   'Mechanical Behaviour of Materials — Laboratory Assistant',
+    'res.r3.company': 'Federal Institute of Education, Science and Technology of Santa Catarina',
+    'res.r3.place':   'SC, Brazil (On-Site)',
+    'res.r3.period':  '2010 – 2011',
+    'res.r3.b1': 'Supported laboratory activities related to the <strong>mechanical behaviour</strong> and characterisation of engineering materials.',
+    'res.r3.b2': 'Performed <strong>heat-treatment</strong> processes and sample preparation for <strong>metallographic analysis</strong>.',
+    'res.r3.b3': 'Conducted <strong>hardness testing</strong> using Vickers, Brinell, and Rockwell methods.',
+    'res.r3.b4': 'Assisted with materials characterisation and laboratory record-keeping.',
+
     // Skills
     'skills.title':    'Skills',
     'skills.g1.title': 'IP &amp; Research',
@@ -107,6 +137,36 @@ const strings = {
     'exp.r3.b4': 'Redigiu <strong>pedidos de patente</strong> e relatórios técnicos de PI em diversas áreas tecnológicas.',
     'exp.r3.b5': 'Ministrou treinamentos internos para colegas e equipes comerciais sobre serviços de PI.',
     'exp.r3.b6': 'Utilizou Excel extensivamente para organizar, analisar e apresentar resultados de pesquisa e preparar dados estruturados para plataformas externas.',
+
+    // Research Experience
+    'res.title': 'Experiência em Pesquisa',
+
+    'res.r1.title':   'Pesquisadora em Injeção de Polímeros',
+    'res.r1.company': 'Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina',
+    'res.r1.place':   'SC, Brasil (Presencial)',
+    'res.r1.period':  '2014 – 2015',
+    'res.r1.b1': 'Realizou pesquisas sobre processos de <strong>injeção de polímeros</strong> e parâmetros de fabricação.',
+    'res.r1.b2': 'Desenvolveu e analisou simulações de moldagem usando <strong>SolidWorks Plastics</strong>.',
+    'res.r1.b3': 'Projetou componentes e protótipos usando <strong>SolidWorks CAD</strong>.',
+    'res.r1.b4': 'Fabricou protótipos funcionais com equipamentos de oficina convencional, incluindo tornos e fresadoras.',
+    'res.r1.b5': 'Realizou avaliação e testes funcionais básicos de protótipos.',
+
+    'res.r2.title':   'Pesquisadora em Processos de Prototipagem Rápida',
+    'res.r2.company': 'Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina',
+    'res.r2.place':   'SC, Brasil (Presencial)',
+    'res.r2.period':  '2013 – 2015',
+    'res.r2.b1': 'Realizou pesquisas sobre <strong>prototipagem rápida</strong> e <strong>manufatura aditiva</strong>, incluindo otimização de parâmetros de <strong>impressão 3D</strong>.',
+    'res.r2.b2': 'Projetou protótipos e componentes experimentais usando <strong>SolidWorks CAD</strong>.',
+    'res.r2.b3': 'Realizou validação e testes funcionais básicos de protótipos.',
+
+    'res.r3.title':   'Assistente de Laboratório — Comportamento Mecânico dos Materiais',
+    'res.r3.company': 'Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina',
+    'res.r3.place':   'SC, Brasil (Presencial)',
+    'res.r3.period':  '2010 – 2011',
+    'res.r3.b1': 'Apoiou atividades laboratoriais relacionadas ao <strong>comportamento mecânico</strong> e caracterização de materiais de engenharia.',
+    'res.r3.b2': 'Realizou processos de <strong>tratamento térmico</strong> e preparação de amostras para <strong>análise metalográfica</strong>.',
+    'res.r3.b3': 'Conduziu <strong>ensaios de dureza</strong> pelos métodos Vickers, Brinell e Rockwell.',
+    'res.r3.b4': 'Auxiliou na caracterização de materiais e no registro de dados laboratoriais.',
 
     // Skills
     'skills.title':    'Competências',
