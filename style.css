@@ -383,6 +383,189 @@ ul {
 }
 
 /* ============================================================
+   Skills
+   ============================================================ */
+.skills-groups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.skills-group-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+.skills-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.pill {
+  display: inline-block;
+  background: var(--accent-light);
+  color: var(--accent);
+  border-radius: 100px;
+  padding: 4px 12px;
+  font-size: 0.775rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   Education & Certifications
+   ============================================================ */
+.edu-cols {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.edu-col-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.edu-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.edu-degree {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 3px;
+}
+
+.edu-inst {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  margin-bottom: 5px;
+}
+
+.edu-note {
+  font-size: 0.74rem;
+  color: var(--accent);
+  font-style: italic;
+}
+
+.edu-year {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+.cert-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cert-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding-block: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cert-item:first-child {
+  padding-top: 0;
+}
+
+.cert-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.cert-name {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 3px;
+}
+
+.cert-issuer {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.cert-year {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+/* ============================================================
+   Contact
+   ============================================================ */
+.contact-intro {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 28px;
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--accent);
+  color: var(--surface);
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color 0.18s ease;
+}
+
+.contact-link:hover {
+  background-color: var(--accent-hover);
+}
+
+.contact-link-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+/* ============================================================
    Dev placeholders — removed once section is built
    ============================================================ */
 .placeholder {
@@ -429,6 +612,16 @@ ul {
     order: -1;
     font-size: 0.75rem;
     padding-top: 0;
+  }
+
+  .skills-groups {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .edu-cols {
+    grid-template-columns: 1fr;
+    gap: 40px;
   }
 
   .footer-inner {

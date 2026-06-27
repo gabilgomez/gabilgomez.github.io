@@ -77,3 +77,25 @@ Increment 3 — About paragraph and Experience timeline.
 
 ### Next
 Increment 4 — Skills, Education & Certifications, Contact, Footer.
+
+---
+
+## Increment 4 — Skills, Education & Certifications, Contact
+**Date:** 2026-06-27
+
+### What was implemented
+- **Skills**: 3-column grid (IP & Research · Engineering · Tools) with 20 accent-green pill tags; collapses to single column on mobile
+- **Education & Certifications**: two-column layout (Education left, Certifications right)
+  - 2 education entries (BSc Mechatronics 2018, Industrial Mechanics) with UK ENIC notes in accent italic
+  - 5 certifications (WIPO ×3, Fluminense Federal, Ponta Grossa State University), 2015–2018
+- **Contact**: intro line + two solid accent-green pill buttons (email, LinkedIn) with hover darkening
+- All new section sub-labels and contact intro wired to i18n (EN + PT)
+- Mobile breakpoints: skills grid → 1 col, edu-cols grid → 1 col
+
+### Tested
+- 20 skill pills confirmed in served HTML
+- 5 cert-items confirmed in served HTML
+- All section and sub-section labels toggle correctly with EN/PT switcher
+
+### Next
+Increment 5 — Full i18n pass and GitHub Pages activation (CNAME + DNS instructions).

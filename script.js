@@ -42,10 +42,22 @@ const strings = {
     'exp.r3.b5': 'Ran internal training sessions for junior colleagues and commercial teams on IP services and client matching.',
     'exp.r3.b6': 'Used Excel extensively to organise, analyse, and present research findings, and prepare structured datasets for external platforms.',
 
-    // Remaining sections
-    'skills.title':  'Skills',
-    'edu.title':     'Education &amp; Certifications',
+    // Skills
+    'skills.title':    'Skills',
+    'skills.g1.title': 'IP &amp; Research',
+    'skills.g2.title': 'Engineering',
+    'skills.g3.title': 'Tools',
+
+    // Education
+    'edu.title':      'Education &amp; Certifications',
+    'edu.ed.title':   'Education',
+    'edu.cert.title': 'Certifications',
+    'edu.enic1':      'UK ENIC verified &middot; equivalent to a Bachelor\'s degree',
+    'edu.enic2':      'UK ENIC verified &middot; equivalent to a BTEC National Diploma',
+
+    // Contact
     'contact.title': 'Contact',
+    'contact.intro': 'Open to conversations about IP research, engineering, and technology.',
   },
 
   pt: {
@@ -88,10 +100,22 @@ const strings = {
     'exp.r3.b5': 'Ministrou treinamentos internos para colegas e equipes comerciais sobre serviços de PI.',
     'exp.r3.b6': 'Utilizou Excel extensivamente para organizar, analisar e apresentar resultados de pesquisa e preparar dados estruturados para plataformas externas.',
 
-    // Remaining sections
-    'skills.title':  'Competências',
-    'edu.title':     'Formação &amp; Certificações',
+    // Skills
+    'skills.title':    'Competências',
+    'skills.g1.title': 'PI &amp; Pesquisa',
+    'skills.g2.title': 'Engenharia',
+    'skills.g3.title': 'Ferramentas',
+
+    // Education
+    'edu.title':      'Formação &amp; Certificações',
+    'edu.ed.title':   'Formação',
+    'edu.cert.title': 'Certificações',
+    'edu.enic1':      'Verificado pelo UK ENIC &middot; equivalente a Bacharelado',
+    'edu.enic2':      'Verificado pelo UK ENIC &middot; equivalente a BTEC National Diploma',
+
+    // Contact
     'contact.title': 'Contacto',
+    'contact.intro': 'Disponível para conversas sobre pesquisa de PI, engenharia e tecnologia.',
   },
 };
 
