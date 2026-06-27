@@ -13,7 +13,7 @@ const strings = {
 
     // About
     'about.title': 'About',
-    'about.body':  'A Mechatronics Engineer by training, I moved into intellectual property research because it lets me do what I enjoy most: taking apart a technology and understanding exactly how it works. Early in my career I conducted research into manufacturing processes, materials characterisation, and prototype development — building the kind of hands-on technical foundation that later made me a more rigorous analyst. I now work as a Senior IP Analyst, conducting <strong>patent searches</strong>, <strong>freedom-to-operate analyses</strong>, and <strong>technology landscape reviews</strong> across a broad range of engineering fields.',
+    'about.body':  'A Mechatronics Engineer by training, I moved into intellectual property research because it lets me do what I enjoy most: taking apart a technology and understanding exactly how it works. Early in my career I conducted research into manufacturing processes, materials characterisation, and prototype development — building the kind of hands-on technical foundation that later made me a more rigorous analyst. That engineering foundation has shaped my approach to <strong>patent research</strong>, <strong>freedom-to-operate analysis</strong>, and <strong>technology landscape assessment</strong> across a diverse range of technical fields.',
 
     // Experience
     'exp.title': 'Experience',
@@ -91,7 +91,7 @@ const strings = {
 
     // Contact
     'contact.title': 'Contact',
-    'contact.intro': 'Open to conversations about IP research, engineering, and technology.',
+    'contact.intro': 'Feel free to reach out — always happy to have a chat.',
   },
 
   pt: {
@@ -105,7 +105,7 @@ const strings = {
 
     // About
     'about.title': 'Sobre',
-    'about.body':  'Sou Engenheira Mecatrônica de formação e migrei para a pesquisa em propriedade intelectual porque me permite fazer o que mais gosto: desmembrar uma tecnologia e entender exatamente como ela funciona. No início da carreira, realizei pesquisas em processos de fabricação, caracterização de materiais e desenvolvimento de protótipos — construindo uma base técnica prática que me tornou uma analista mais rigorosa. Atualmente trabalho como Analista Sênior de PI, conduzindo <strong>pesquisas de patentes</strong>, <strong>análises de liberdade de operação</strong> e <strong>mapeamentos tecnológicos</strong> em diversas áreas da engenharia.',
+    'about.body':  'Sou Engenheira Mecatrônica de formação e migrei para a pesquisa em propriedade intelectual porque me permite fazer o que mais gosto: desmembrar uma tecnologia e entender exatamente como ela funciona. No início da carreira, realizei pesquisas em processos de fabricação, caracterização de materiais e desenvolvimento de protótipos — construindo uma base técnica prática que me tornou uma analista mais rigorosa. Essa base em engenharia moldou minha abordagem à <strong>pesquisa de patentes</strong>, <strong>análises de liberdade de operação</strong> e <strong>mapeamento tecnológico</strong> em diversas áreas técnicas.',
 
     // Experience
     'exp.title': 'Experiência',
@@ -183,7 +183,7 @@ const strings = {
 
     // Contact
     'contact.title': 'Contacto',
-    'contact.intro': 'Disponível para conversas sobre pesquisa de PI, engenharia e tecnologia.',
+    'contact.intro': 'Sinta-se à vontade para entrar em contacto — fico sempre feliz em conversar.',
   },
 };
 
