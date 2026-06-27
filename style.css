@@ -173,6 +173,107 @@ ul {
 }
 
 /* ============================================================
+   Hero
+   ============================================================ */
+.hero-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-legal {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+
+.hero-name {
+  font-size: clamp(3rem, 8vw, 4.75rem);
+  font-weight: 700;
+  line-height: 1.02;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+.hero-tagline {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 420px;
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
+
+.hero-location {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 36px;
+  letter-spacing: 0.02em;
+}
+
+/* Social links */
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--surface);
+  transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
+  white-space: nowrap;
+}
+
+.hero-link:hover {
+  color: var(--surface);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.hero-link-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* Photo placeholder */
+.hero-photo {
+  flex-shrink: 0;
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  border: 2px dashed var(--accent);
+  background: var(--accent-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.hero-photo-icon {
+  width: 56px;
+  height: 56px;
+  color: var(--accent);
+  opacity: 0.45;
+}
+
+/* ============================================================
    Dev placeholders — removed once section is built
    ============================================================ */
 .placeholder {
@@ -191,7 +292,22 @@ ul {
   }
 
   .section-hero {
-    padding-block: 64px 48px;
+    padding-block: 56px 40px;
+  }
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+
+  .hero-photo {
+    width: 96px;
+    height: 96px;
+  }
+
+  .hero-photo-icon {
+    width: 38px;
+    height: 38px;
   }
 
   .footer-inner {

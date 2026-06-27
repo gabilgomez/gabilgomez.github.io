@@ -3,6 +3,8 @@
    ============================================================ */
 const strings = {
   en: {
+    'hero.tagline':  'Mechatronics Engineer specialising in intellectual property research and technology assessment',
+    'hero.location': 'Exeter · UK',
     'about.title':   'About',
     'exp.title':     'Experience',
     'skills.title':  'Skills',
@@ -10,6 +12,8 @@ const strings = {
     'contact.title': 'Contact',
   },
   pt: {
+    'hero.tagline':  'Engenheira Mecatrônica com especialização em pesquisa de propriedade intelectual e avaliação tecnológica',
+    'hero.location': 'Exeter · Reino Unido',
     'about.title':   'Sobre',
     'exp.title':     'Experiência',
     'skills.title':  'Competências',

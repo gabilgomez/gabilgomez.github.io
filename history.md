@@ -29,3 +29,26 @@
 
 ### Next
 Increment 2 — Hero section with name, tagline, and social links.
+
+---
+
+## Increment 2 — Hero Section
+**Date:** 2026-06-27
+
+### What was implemented
+- Two-column hero layout: content left, circular photo placeholder right
+- Legal name (`Gabrielli Laurindo Gomez`) displayed in small secondary text above the main name
+- Large responsive display name `Gabi Gomez` using `clamp()` for fluid type sizing
+- Tagline and location wired to i18n (EN/PT strings added)
+- Three social link pills: LinkedIn, GitHub, gabi@gomez.id — each with inline SVG icon
+- Link pills animate to solid accent green on hover
+- Photo placeholder: 148px circle with dashed accent border and silhouette icon
+- Mobile breakpoint: layout stacks (photo moves above name, shrinks to 96px)
+
+### Tested
+- All three links verified present in served HTML (`/gabrielligomez/`, `/gabilgomez`, `mailto:gabi@gomez.id`)
+- 9 hero class references confirmed in served output
+- Tagline switches language correctly on toggle (EN ↔ PT)
+
+### Next
+Increment 3 — About paragraph and Experience timeline.
