@@ -46,6 +46,12 @@ const strings = {
     'exp.r3.b5': 'Ran internal training sessions for junior colleagues and commercial teams on IP services and client matching.',
     'exp.r3.b6': 'Used Excel extensively to organise, analyse, and present research findings, and prepare structured datasets for external platforms.',
 
+    // Publications
+    'pub.title':           'Publications',
+    'pub.type.conference': 'Conference Paper',
+    'pub.type.thesis':     'Undergraduate Thesis',
+    'pub.advisor':         'Advisor:',
+
     // Research Experience
     'res.title': 'Research Experience',
 
@@ -137,6 +143,12 @@ const strings = {
     'exp.r3.b4': 'Redigiu <strong>pedidos de patente</strong> e relatórios técnicos de PI em diversas áreas tecnológicas.',
     'exp.r3.b5': 'Ministrou treinamentos internos para colegas e equipes comerciais sobre serviços de PI.',
     'exp.r3.b6': 'Utilizou Excel extensivamente para organizar, analisar e apresentar resultados de pesquisa e preparar dados estruturados para plataformas externas.',
+
+    // Publications
+    'pub.title':           'Publicações',
+    'pub.type.conference': 'Artigo em Congresso',
+    'pub.type.thesis':     'Trabalho de Conclusão de Curso',
+    'pub.advisor':         'Orientador:',
 
     // Research Experience
     'res.title': 'Experiência em Pesquisa',

@@ -381,6 +381,129 @@ ul {
 }
 
 /* ============================================================
+   Publications
+   ============================================================ */
+.pub-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding-block: 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub-item:first-child {
+  padding-top: 0;
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.pub-type {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 100px;
+  padding: 2px 9px;
+  line-height: 1.5;
+}
+
+.pub-year {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.pub-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.45;
+  margin-bottom: 4px;
+}
+
+.pub-subtitle {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 9px;
+  line-height: 1.4;
+}
+
+.pub-meta {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.pub-meta strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.pub-venue {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.pub-actions {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 13px;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: transparent;
+  white-space: nowrap;
+  transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
+}
+
+.pub-link:hover {
+  color: var(--surface);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.pub-link-icon {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+/* ============================================================
    Skills
    ============================================================ */
 .skills-groups {
@@ -609,6 +732,15 @@ ul {
     order: -1;
     font-size: 0.75rem;
     padding-top: 0;
+  }
+
+  .pub-item {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .pub-actions {
+    flex-direction: row;
   }
 
   .skills-groups {
